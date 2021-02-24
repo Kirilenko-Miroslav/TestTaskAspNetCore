@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Загрузка данных";
+}
+<div class="text-center">
+    <h1 class="display-4">Выберите файл(ы) для загрузкки</h1>
+</div>
+@using (Html.BeginForm("Upload", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="uploads" multiple="multiple" />
+    <input type="submit" value="Загрузить" />
+}

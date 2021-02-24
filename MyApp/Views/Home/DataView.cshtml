@@ -1,0 +1,74 @@
+﻿@model MyApp.Models.MyViewModel
+@addTagHelper *, MyApp
+@{
+    ViewData["Title"] = "Просмотр данных";
+}
+<div class="text-center">
+    <h1 class="display-4">Просмотр данных</h1>
+    <h2>Выберите год и месяц для фильтрации данных</h2>
+    <p>(выбрав только месяц программа работать не будет)</p>
+</div>
+
+<form method="get">
+    <div class="form-inline form-group">
+        <label class="control-label" placeholder="Все">Год: </label>
+        <input name="year" class="form-control" value="@Model.Year" />
+
+        <label class="control-label">Месяц: </label>
+        <select name="month" class="custom-select mr-sm-2">
+            <option>Все</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+
+        <input type="submit" value="Фильтр" class="btn btn-default" />
+    </div>
+</form>
+
+<table class="table-bordered">
+    <tr>
+        <th align="center">Дата</th>
+        <th align="center">Время<br>(московское)</th>
+        <th>Температура воздуха</th>
+        <th>Отн. влажность<br>воздуха, %</th>
+        <th>Точка россы</th>
+        <th>Атм.давление,<br>мм рт.ст.</th>
+        <th>Направление<br>ветра</th>
+        <th>Скорость<br>ветра, м/с</th>
+        <th>Облачность, %</th>
+        <th>Нижняя граница облачности</th>
+        <th>Горизонтальная видимость, км</th>
+        <th>Погодные явления</th>
+    </tr>
+    @if (Model.Data != null)
+        foreach (var item in Model.Data)
+        {
+            <tr>
+                <td align="center">@item.Date</td>
+                <td align="center">@item.Time</td>
+                <td align="center">@item.T</td>
+                <td align="center">@item.Humidity</td>
+                <td align="center">@item.Td</td>
+                <td align="center">@item.Pressure</td>
+                <td align="center">@item.WindDir</td>
+                <td align="center">@item.WindSpeed</td>
+                <td align="center">@item.Cloudy</td>
+                <td align="center">@item.H</td>
+                <td align="center">@item.VV</td>
+                <td align="center">@item.Conditions</td>
+            </tr>
+        }
+</table>
+<page-link page-model="Model.PageViewModel" page-action="DataView"
+           page-url-year="@(Model.Year)"
+           page-url-month="@(Model.Month)"></page-link>
