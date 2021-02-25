@@ -5865,11 +5865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miros\\source\\repos\\MyApp\\DataLayer\\DataLayer.csproj",
+      "projectUniqueName": "D:\\Repos\\TestTaskAspNetCore\\MyApp\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
-      "projectPath": "C:\\Users\\miros\\source\\repos\\MyApp\\DataLayer\\DataLayer.csproj",
+      "projectPath": "D:\\Repos\\TestTaskAspNetCore\\MyApp\\DataLayer\\DataLayer.csproj",
       "packagesPath": "C:\\Users\\miros\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miros\\source\\repos\\MyApp\\DataLayer\\obj\\",
+      "outputPath": "D:\\Repos\\TestTaskAspNetCore\\MyApp\\DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

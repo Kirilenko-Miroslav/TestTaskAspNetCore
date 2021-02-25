@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8zOJlzb2IHSHiJeW4Pytht1mPNxezlHj3E8+TXS3UJTEj8Owu4cbAlxO10N1L46j/dNZNvsOdZu0PIAvxyiM0g==",
+  "dgSpecHash": "cULjnhDbnkriwakyrw0998gPro4DU4Bj6YEUpv9SL/h4D/2kQTfzhocMem/da8jBc13lnUi3NnvV8FdjnJha0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miros\\source\\repos\\MyApp\\MyApp\\MyApp.csproj",
+  "projectFilePath": "D:\\Repos\\TestTaskAspNetCore\\MyApp\\MyApp\\MyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miros\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\miros\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

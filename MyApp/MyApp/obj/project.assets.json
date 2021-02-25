@@ -5886,11 +5886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miros\\source\\repos\\MyApp\\MyApp\\MyApp.csproj",
+      "projectUniqueName": "D:\\Repos\\TestTaskAspNetCore\\MyApp\\MyApp\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "C:\\Users\\miros\\source\\repos\\MyApp\\MyApp\\MyApp.csproj",
+      "projectPath": "D:\\Repos\\TestTaskAspNetCore\\MyApp\\MyApp\\MyApp.csproj",
       "packagesPath": "C:\\Users\\miros\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miros\\source\\repos\\MyApp\\MyApp\\obj\\",
+      "outputPath": "D:\\Repos\\TestTaskAspNetCore\\MyApp\\MyApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5909,8 +5909,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\miros\\source\\repos\\MyApp\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "C:\\Users\\miros\\source\\repos\\MyApp\\DataLayer\\DataLayer.csproj"
+            "D:\\Repos\\TestTaskAspNetCore\\MyApp\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "D:\\Repos\\TestTaskAspNetCore\\MyApp\\DataLayer\\DataLayer.csproj"
             }
           }
         }

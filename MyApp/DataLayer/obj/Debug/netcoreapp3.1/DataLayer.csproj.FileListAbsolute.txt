@@ -10,3 +10,15 @@ C:\Users\miros\source\repos\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dl
 C:\Users\miros\source\repos\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
 C:\Users\miros\source\repos\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
 C:\Users\miros\source\repos\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
