@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DataLayer;
 using DataLayer.Entityes;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -21,10 +22,12 @@ namespace MyApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private EFDBContext _context;
-        public HomeController(ILogger<HomeController> logger, EFDBContext context)
+        IWebHostEnvironment _appEnvironment;
+        public HomeController(ILogger<HomeController> logger, EFDBContext context, IWebHostEnvironment appEnvironment)
         {
             _logger = logger;
             _context = context;
+            _appEnvironment = appEnvironment;
         }
 
         public IActionResult Index()
@@ -40,8 +43,13 @@ namespace MyApp.Controllers
         {
             foreach (IFormFile file in uploads)
             {
+                string path = "/Files/" + file.FileName;
+                using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                {
+                    file.CopyTo(fileStream);
+                }
                 IWorkbook workbook = null;
-                using (var fileStream = new FileStream(file.FileName, FileMode.Open, FileAccess.Read))
+                using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Open, FileAccess.Read))
                 { 
                     try
                     {
@@ -49,7 +57,7 @@ namespace MyApp.Controllers
                     }
                     catch
                     {
-                        continue;
+                        
                     }
                 }
                 if (workbook != null)
@@ -82,6 +90,7 @@ namespace MyApp.Controllers
                         }
                     }
                 }
+                System.IO.File.Delete(_appEnvironment.WebRootPath + path);
             }
             return RedirectToAction("Succes");
         }
