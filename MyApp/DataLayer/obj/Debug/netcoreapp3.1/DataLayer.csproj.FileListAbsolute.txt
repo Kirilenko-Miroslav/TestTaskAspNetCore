@@ -22,3 +22,16 @@ D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.cs
 D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
 D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
 D:\Repos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.AssemblyReference.cache
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\miros\OneDrive\Рабочий стол\GitHubRepos\TestTaskAspNetCore\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
